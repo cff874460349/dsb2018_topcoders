@@ -1,6 +1,6 @@
 
 from keras import Model, Input
-from keras.applications import DenseNet169
+from keras_applications import DenseNet169
 from keras.layers import UpSampling2D, Conv2D, BatchNormalization, Activation, concatenate, Add
 from keras.utils import get_file
 
